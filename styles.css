@@ -16,12 +16,14 @@ body, a:link, a:visited, a:active{
 .topbar{
   height:32px;
   background-color: #555;
+
 }
 .title{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
   position:absolute;
+  content: url(images/dancing.gif);
+  max-height: 300px;
+  max-width: 300px;
 }
