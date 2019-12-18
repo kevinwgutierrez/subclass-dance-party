@@ -3,15 +3,19 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
   font-size: 18px;
+  background: url(images/dancefloor.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
-  padding:5px 12px;
+.addDancerButton, .addDancerButton2, .lineUpButton {
+  padding:5px 100px;
   float:right;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .topbar{
   height:32px;
@@ -19,11 +23,17 @@ body, a:link, a:visited, a:active{
 
 }
 .title{
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #777;
+  padding:5px 100px;
+  float:left;
+
 }
-.dancer{
-  position:absolute;
-  content: url(images/dancing.gif);
-  max-height: 300px;
-  max-width: 300px;
+.dancer {
+  display: block;
+  float: left;
 }
+.linedUp {
+  min-width: 100px;
+}
+.dancer
